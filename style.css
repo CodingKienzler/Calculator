@@ -1,0 +1,65 @@
+body {
+  background-color: #d6d6d6;
+}
+
+.container {
+  width: 250px;
+  height: 400px;
+  margin: 80px auto;
+  border-radius: 12px;
+  background: #d6d6d6;
+  box-shadow: 5px 5px 10px #b6a9a9, -5px -5px 10px #ffffff;
+}
+
+.cal-box {
+  width: 200px;
+  margin: 20px auto;
+}
+
+#display {
+  border: none;
+  outline: none;
+  color: #000000;
+  text-align: right;
+  font-weight: 600;
+  padding: 15px;
+  margin: 30px 0 20px 0;
+  background: transparent;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff;
+  border-radius: 12px;
+}
+
+.button {
+  margin: 15px 0 0 5px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 12px;
+  background: #d6d6d6;
+  box-shadow: 5px 5px 10px #b6acac, -5px -5px 10px #faf4f4;
+  display: inline-block;
+}
+
+.button:active {
+  box-shadow: inset 1px 1px #babeec, -1px -1px 2px #ffffff;
+}
+
+.helpbutton {
+  margin: 15px 0 0 5px;
+  width: 195px;
+  height: 42px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff6600;
+  cursor: pointer;
+  border-radius: 12px;
+  background: #d6d6d6;
+  box-shadow: 5px 5px 10px #b6acac, -5px -5px 10px #faf4f4;
+  display: inline-block;
+}
